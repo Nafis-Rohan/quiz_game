@@ -26,7 +26,7 @@ for i in range(len(questions)):
         print(f"You have chosen to quit. Total money won: {money}")
         break
 
-    # Mapping input to the correct index (0 for a, 1 for b, 2 for c, 3 for d)
+
     answer_map = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
     if answer_map.get(ans) == question[5]:
